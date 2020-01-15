@@ -1,0 +1,10 @@
+- name: <span class="icon icon-home"></span> Home <span class="icon icon-home"></span>
+  link: /
+- name: <span class="icon icon-info"></span> About <span class="icon icon-info"></span>
+  link: /about.html
+- name: <span class="icon icon-newspaper"></span> Blog <span class="icon icon-newspaper"></span>
+  link: /blog.html
+- name: <span class="icon icon-users"></span> Staff <span class="icon icon-users"></span>
+  link: /staff.html
+- name: <span class="icon icon-cart"></span>
+  link: /cart.html

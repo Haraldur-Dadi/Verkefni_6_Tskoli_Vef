@@ -1,0 +1,12 @@
+<section>
+	<input class="menuInput" type="checkbox" id="toggle">
+	<label for="toggle" class="menuLabel"><span class="icon icon-menu4"> </span></label>
+	<nav class="nav-columns">
+		<ul>
+			<li><a class="sitelogo" target="_blank" href="https://www.off---white.com/"><img src={{ "assets/photos/OffWhiteLogo.svg" | relative_url }}></a></li>
+			{% for item in site.data.navigation %}
+				<li><a {% if page.url == item.link %} class="valmynd-current" {% endif %} class="valmynd" href="{{ item.link | relative_url }}"> {% if page.url == item.link %} {{ item.name }} {% else %} &quot{{ item.name }}&quot {% endif %}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+</section>
